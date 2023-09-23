@@ -1,9 +1,9 @@
 package com.shoppyng.cart.service;
 
 import com.shoppyng.cart.model.Product;
+import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
